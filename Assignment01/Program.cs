@@ -6,7 +6,7 @@ namespace Assignment01
 {
     class Program
     {
-        public static int ValidateUserInput(string chosenNumber)//Va
+        public static int ValidateUserInput(string chosenNumber)
         {
             int aNumber = 1;
             bool isValid = false;
@@ -43,7 +43,7 @@ namespace Assignment01
         {
             int operation = 0;
             int length; int width;
-            Rectangle rec1 = new Rectangle();//rectangle with length= 1 and width= 1
+            Rectangle rec1 = new Rectangle();
             length = ValidateUserInput("length");
             width = ValidateUserInput("width");
             Rectangle rec2 = new Rectangle(length, width);
